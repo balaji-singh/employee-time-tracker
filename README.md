@@ -14,6 +14,10 @@ Language- Java.
 
 Frameworks- Spring Boot,thymeleaf.
 
+Logging- Spring Boot SLF4j Logback.
+
+It will sue for caputring and archiving the generated logs.
+
 Tools- Git.
 
 Git is a version controlling tool. 
