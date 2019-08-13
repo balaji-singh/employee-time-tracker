@@ -8,15 +8,21 @@ See deployment for notes on how to deploy the project on a live system.
 Prerequisites
 What things you need to install the software and how to install them.
 
-IDE - Eclipse, VS Studio Code,Spring Tool Suit, IntelliJ IDEA.
-Language- Java
+IDE - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
+
+Language- Java.
+
 Frameworks- Spring Boot,thymeleaf.
 
 Tools- Git.
-Git is a version controlling tool.
-open terminal and use below  command to clone the repository from gitgub
-git clone https://github.com/balaji-singh/employee-time-tracker.git
-Open your favorite IDE then import existed maven projects into workspace.
+
+Git is a version controlling tool. 
+
+open terminal and use below  command to clone the repository from gitgub.
+
+git clone https://github.com/balaji-singh/employee-time-tracker.git.
+
+Open your favorite IDE then import existed maven projects into workspace. 
 
         (or)
 
@@ -24,7 +30,9 @@ Open Your favorite IDE configure Egit then clone the repository and import this 
 
 
 Build management- Maven.
+
 Maven is  Dependency and Build Management.
+
 Please check the pom.xml file various dependencies used for this application.
 
 by using terminal mvn clean install for including testcase or mvn clean install -Dmaven.skip.test=true for skipping test
@@ -49,8 +57,6 @@ and use -d for background process.
 docker run -d  -p 8081:8080 balajiabgs/employee-timetracker:1
 
 
-Authors
+Author
 Bala S Singh
 
-License
-This project is Open source and practice
