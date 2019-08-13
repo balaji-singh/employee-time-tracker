@@ -1,31 +1,16 @@
 package com.masterjavaonline.timetracker.controller;
 
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.masterjavaonline.timetracker.model.TrackRecord;
-import com.masterjavaonline.timetracker.service.EmployeeService;
 import com.masterjavaonline.timetracker.service.EmployeeServiceImpl;
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 @RestController
