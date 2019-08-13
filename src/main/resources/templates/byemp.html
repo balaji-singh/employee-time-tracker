@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Time Tracker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Employee Time Tracker</h2>
+    <ul class="nav nav-pills">
+        <li><a href="/">Home</a></li>
+        <li><a href="/add">Add Tracker</a></li>
+        <li><a href="/byrange">Track by range</a></li>
+        <li class="active"><a href="/byemp">Track by Employee</a></li>
+
+    </ul>
+</div>
+
+<br/>
+<br/>
+<div class="container">
+
+    <form action="/byemp" method="post" class="form-inline">
+
+        <div class="form-group">
+            <label for="email">EMP ID:</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                   placeholder="Enter email" name="email" required/>
+        </div>
+        <div class="form-group">
+            <label for="length">Records Legth:</label>
+            <input type="number" min="0" class="form-control" id="length" name="length" required/>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+    </form>
+</div>
+
+<br/>
+<br/>
+<div class="container">
+    <table class="table table-striped" border="1" width="50%">
+        <tr>
+            <th>Email</th>
+            <th>From</th>
+            <th>To</th>
+        </tr>
+        <div th:if="${trackRecords!=null and !trackRecords.isEmpty()}">
+            <tr th:each="trackRecord: ${trackRecords}">
+                <td th:text="${trackRecord.email}"/>
+                <td th:text="${trackRecord.start}"/>
+                <td th:text="${trackRecord.end}"/>
+
+            </tr>
+        </div>
+    </table>
+</div>
+</body>
+</html>
