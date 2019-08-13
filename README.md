@@ -35,7 +35,9 @@ Maven is  Dependency and Build Management.
 
 Please check the pom.xml file various dependencies used for this application.
 
-by using terminal mvn clean install for including testcase or mvn clean install -Dmaven.skip.test=true for skipping test
+by using terminal mvn clean install for including testcase or mvn clean install 
+
+mvn clean install -Dmaven.test.skip=true for skipping test.
 
 -X for debug mode and -U for update the dependencies and -P for profiling
 
