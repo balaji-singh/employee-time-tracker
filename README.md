@@ -72,6 +72,22 @@ To rebuild this image you must use `docker-compose build` or `docker-compose up 
 
 After starting docker continer access the portal by fallowing URL.
 
+A docker-compose.yml looks like this:
+
+version: '2'
+
+services:
+  web:
+    build: .
+    ports:
+     - "5000:5000"
+    volumes:
+     - .:/code
+  redis:
+    image: redis
+    
+Finally access the UI by suing fallowing link.    
+
 Home page : http://localhost:8081/
 
 Resources: https://docs.docker.com/compose/gettingstarted/
