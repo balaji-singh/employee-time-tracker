@@ -66,6 +66,7 @@ After starting docker continer access the portal by fallowing URL.
 
 Home page : http://localhost:8081/
 
+Resources: https://docs.docker.com/compose/gettingstarted/
 
 Author
 Bala S Singh
