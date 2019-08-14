@@ -62,6 +62,10 @@ and use -d for background process.
 
 docker run -d  -p 8081:8080 balajiabgs/employee-timetracker:1
 
+After starting docker continer access the portal by fallowing URL.
+
+Home page : http://localhost:8081/
+
 
 Author
 Bala S Singh
