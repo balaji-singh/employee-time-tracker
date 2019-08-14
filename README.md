@@ -62,6 +62,14 @@ and use -d for background process.
 
 docker run -d  -p 8081:8080 balajiabgs/employee-timetracker:1
 
+(or)
+
+Use docker composer file for building and linking the differnt containers and images.
+
+run docker-compose up and Compose will start and run your entire app.
+
+To rebuild this image you must use `docker-compose build` or `docker-compose up --build`
+
 After starting docker continer access the portal by fallowing URL.
 
 Home page : http://localhost:8081/
@@ -70,4 +78,6 @@ Resources: https://docs.docker.com/compose/gettingstarted/
 
 Author
 Bala S Singh
+
+
 
