@@ -3,8 +3,8 @@ services:
   employee-time-tracker:
     container_name: employee-time-tracker
     build:
-       context: .
-       dockerfile: Dockerfile
+      context: .
+      dockerfile: Dockerfile
     image: balajiabgs/employee-timetracker:1
     environment:
       TIMETRACKERURL: 'http://timetracker:8080'
