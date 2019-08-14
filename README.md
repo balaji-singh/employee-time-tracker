@@ -74,11 +74,10 @@ After starting docker continer access the portal by fallowing URL.
 
 A docker-compose.yml looks like this:
 
+
 version: '2'
 
-services:
-
-  web:
+services:web:
   
     build: .
     
