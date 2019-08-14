@@ -77,14 +77,23 @@ A docker-compose.yml looks like this:
 version: '2'
 
 services:
+
   web:
+  
     build: .
+    
     ports:
+    
      - "5000:5000"
+     
     volumes:
+    
      - .:/code
+     
   redis:
+  
     image: redis
+    
     
 Finally access the UI by suing fallowing link.    
 
