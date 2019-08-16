@@ -93,7 +93,10 @@ services:web:
   
     image: redis
     
-    
+To check th logs for he perticular conatiner use fallowin command.
+
+docker logs (container id).
+
 Finally access the UI by suing fallowing link.    
 
 Home page : http://localhost:8081/
