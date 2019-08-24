@@ -1,24 +1,24 @@
-Employee Time Tracker
+<center><h2><u>Employee Time Tracker</u></h2></center>
 A Web based application to track employee time log activities
 
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
+<h3><u>Prerequisites</u></h3>
 What things you need to install the software and how to install them.
 
-IDE - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
+<b><u>IDE</b></u> - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
 
-Language- Java.
+<b><u>Language</b></u>- Java.
 
-Frameworks- Spring Boot,thymeleaf.
+<b><u>Frameworks</b></u>- Spring Boot,thymeleaf.
 
-Logging- Spring Boot SLF4j Logback.
+<b><u>Logging</b></u>- Spring Boot SLF4j Logback.
 
 It will sue for caputring and archiving the generated logs.
 
-Tools- Git.
+<b><u>Tools</b></u>- Git.
 
 Git is a version controlling tool. 
 
@@ -33,7 +33,7 @@ Open your favorite IDE then import existed maven projects into workspace.
 Open Your favorite IDE configure Egit then clone the repository and import this project into to workspace.
 
 
-Build management- Maven.
+<b><u>Build management</b></u>- Maven.
 
 Maven is  Dependency and Build Management.
 
@@ -45,7 +45,7 @@ mvn clean install -Dmaven.test.skip=true for skipping test.
 
 -X for debug mode and -U for update the dependencies and -P for profiling
 
-Containerization- Docker.
+<b><u>Containerization</b></u>- Docker.
 
 First of install Docker desktop into your machine.
 
