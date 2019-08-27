@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://github.com/balaji-singh/employee-time-tracker" target="_blank">Employee Time Tracker</a></h1>
 
 <p align="center">
-  <a href="https://travis-ci.com/balaji-singh/employee-time-tracker"><img alt="Travis-CI" src="https://travis-ci.com/balaji-singh/employee-time-tracker.svg?branch=dev"/></a>
+  <a href="https://travis-ci.com/balaji-singh/employee-time-tracker"><img alt="Travis-CI" src="https://travis-ci.com/balaji-singh/employee-time-tracker.svg?branch=Dev"/></a>
   <a href="https://masterjavaonline.com"><img alt="author" src="https://img.shields.io/badge/author-Bala.S.Singh-blue.svg"/></a>
   <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html"><img alt="JDK" src="https://img.shields.io/badge/JDK-1.8.0_162-orange.svg"/></a>
   <a href="https://docs.spring.io/spring-boot/docs/2.1.0.RELEASE/reference/html/"><img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-2.1.0.RELEASE-brightgreen.svg"/></a>
