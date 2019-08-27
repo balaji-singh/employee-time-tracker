@@ -31,6 +31,9 @@ See deployment for notes on how to deploy the project on a live system.
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [employee-time-tracker](./employee-time-tracker) | a web based application to track Employee activities developed by using Spring Boot .                                           |
 
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/balaji-singh/employee-time-tracker.svg)](https://starchart.cc/balaji-singh/employee-time-tracker)
 
 ## Prerequisites
 What things you need to install the software and how to install them.
