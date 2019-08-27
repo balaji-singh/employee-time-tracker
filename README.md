@@ -23,17 +23,17 @@ See deployment for notes on how to deploy the project on a live system.
 ## Prerequisites
 What things you need to install the software and how to install them.
 
-<b><u>IDE</b></u> - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
+- **IDE** - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
 
-<b><u>Language</b></u>- Java.
+- **Language**- Java.
 
-<b><u>Frameworks</b></u>- Spring Boot,thymeleaf.
+- **Frameworks**- Spring Boot,thymeleaf.
 
-<b><u>Logging</b></u>- Spring Boot SLF4j Logback.
+- **Logging**- Spring Boot SLF4j Logback.
 
 It will sue for caputring and archiving the generated logs.
 
-<b><u>Tools</b></u>- Git.
+- **Tools**- Git.
 
 Git is a version controlling tool. 
 
@@ -48,7 +48,7 @@ Open your favorite IDE then import existed maven projects into workspace.
 Open Your favorite IDE configure Egit then clone the repository and import this project into to workspace.
 
 
-<b><u>Build management</b></u>- Maven.
+- **Build management**- Maven.
 
 Maven is  Dependency and Build Management.
 
@@ -60,7 +60,7 @@ mvn clean install -Dmaven.test.skip=true for skipping test.
 
 -X for debug mode and -U for update the dependencies and -P for profiling
 
-<b><u>Containerization</b></u>- Docker.
+- **Containerization**- Docker.
 
 First of install Docker desktop into your machine.
 
