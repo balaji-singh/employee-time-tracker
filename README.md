@@ -27,6 +27,11 @@ See deployment for notes on how to deploy the project on a live system.
 3. Import the `pom.xml` file from the root directory using `Maven Projects` panel
 4. If you can not find `Maven Projects` panel, try to tick `View -> Tool Buttons` on and the `Maven Projects` panel will appear on the right side of IDEA.
 
+| Module Name                                                  | Module Description                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [employee-time-tracker](./employee-time-tracker) | a web based application to track Employee activities developed by using Spring Boot .                                           |
+
+
 ## Prerequisites
 What things you need to install the software and how to install them.
 
