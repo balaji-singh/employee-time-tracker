@@ -20,6 +20,13 @@ Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 See deployment for notes on how to deploy the project on a live system.
 
+## Getting Started
+
+1. `git clone https://github.com/balaji-singh/employee-time-tracker`
+2. Open the cloned project in IDEA
+3. Import the `pom.xml` file from the root directory using `Maven Projects` panel
+4. If you can not find `Maven Projects` panel, try to tick `View -> Tool Buttons` on and the `Maven Projects` panel will appear on the right side of IDEA.
+
 ## Prerequisites
 What things you need to install the software and how to install them.
 
