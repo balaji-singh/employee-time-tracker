@@ -108,9 +108,9 @@ docker logs (container id).
 
 Finally access the UI by suing fallowing link.    
 
-Home page : http://localhost:8081/
+- **Home page** : http://localhost:8081/
 
-Resources: https://docs.docker.com/compose/gettingstarted/
+- **Resources**: https://docs.docker.com/compose/gettingstarted/
 
 Author
 Bala S Singh
