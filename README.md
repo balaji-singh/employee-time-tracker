@@ -13,13 +13,14 @@
   <a href="https://github.com/balaji-singh/employee-time-tracker/watchers"><img alt="star" src="https://img.shields.io/github/watchers/balaji-singh/employee-time-tracker.svg?label=Watch&style=social"/></a>
 </p>
 
+## Introduction
 A Web based application to track employee time log activities
 
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 See deployment for notes on how to deploy the project on a live system.
 
-<h3><u>Prerequisites</u></h3>
+## Prerequisites
 What things you need to install the software and how to install them.
 
 <b><u>IDE</b></u> - Eclipse,VS Studio Code,Spring Tool Suit,IntelliJ IDEA. 
@@ -88,24 +89,18 @@ After starting docker continer access the portal by fallowing URL.
 
 A docker-compose.yml looks like this:
 
-
-version: '2'
-
-services:web:
-  
-    build: .
-    
-    ports:
-    
-     - "5000:5000"
-     
-    volumes:
-    
-     - .:/code
-     
+<code>
+  version: '2'
+  build: .
+  services:web:
+  build: .
+  ports:
+  - "5000:5000"
+  volumes:
+  - .:/code
   redis:
-  
-    image: redis
+  image: redis
+ </code> 
     
 To check th logs for he perticular conatiner use fallowin command.
 
