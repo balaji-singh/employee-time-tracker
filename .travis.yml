@@ -1,6 +1,6 @@
 language: java
 script: "mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
-script: "docker build"
+script: "docker run"
 
 notifications:
   email:
