@@ -3,7 +3,7 @@ FROM openjdk:8
 VOLUME /tmp
 ARG JAVA_OPTS
 ENV JAVA_OPTS=$JAVA_OPTS
-ADD target/employee-time-tracker-0.0.1-SNAPSHOT.jar employee-time-tracker.jar
+ADD ./target/employee-time-tracker-0.0.1-SNAPSHOT.jar employee-time-tracker.jar
 EXPOSE 8081
 
 ENTRYPOINT exec java -Djava.security.egd=file:/dev/./urandom -jar employee-time-tracker.jar
