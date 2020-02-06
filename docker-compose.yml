@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: balajiabgs/employee-timetracker:1
+    image: balajiabgs/employee-timetracker:#{Build.BuildId}#
     environment:
       TIMETRACKERURL: 'http://timetracker:8080'
     expose:
