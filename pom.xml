@@ -99,12 +99,12 @@
     <repository>
       <id>deployment</id>
       <name>Internal Releases</name>
-      <url>http://127.0.0.1:8981/repository/app-releases/</url>
+      <url>http://10.0.2.15:8081/repository/app-releases/</url>
     </repository>
     <snapshotRepository>
       <id>deployment</id>
       <name>Internal Snapshots</name>
-      <url>http://127.0.0.1:8981/repository/app-snapshot/</url>
+      <url>http://10.0.2.15:8081/repository/app-snapshot/</url>
     </snapshotRepository>       
   </distributionManagement>
 </project>
