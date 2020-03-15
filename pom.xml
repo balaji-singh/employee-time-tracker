@@ -95,5 +95,16 @@
             </plugin>
         </plugins>
     </build>
-
+   <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Snapshot releases</name>
+      <url>http://127.0.0.1:8981/repository/app-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot releases</name>
+      <url>http://127.0.0.1:8981/repository/app-snapshot/</url>
+    </snapshotRepository>       
+  </distributionManagement>
 </project>
