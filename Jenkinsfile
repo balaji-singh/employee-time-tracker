@@ -30,7 +30,7 @@ pipeline {
       cucumber '**/*.json'
     }
     success {
-      withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+      withCredentials([usernamePassword(credentialsId: 'nexus', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
         sh "docker login -u ${USERNAME} -p ${PASSWORD} 10.0.2.15:8083"
         sh "docker push 10.0.2.15:8083/employee-time-tracker:latest"
       }
