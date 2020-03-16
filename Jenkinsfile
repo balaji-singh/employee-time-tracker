@@ -22,12 +22,12 @@ pipeline {
         sh "docker push 10.0.2.15:5000/employee-time-tracker:${env.BUILD_ID}"
        }
      }
-     stage('cleanup')
+     stage('cleanup'){
       steps{
         sh "docker rmi -f 10.0.2.15:5000/employee-time-tracker:${env.BUILD_ID}"
         sh "docker rmi -f balajiabgs/employee-time-tracker:${env.BUILD_ID}"
       }
-    
+     }
   }
 
   post {
