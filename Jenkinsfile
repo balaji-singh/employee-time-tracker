@@ -18,7 +18,7 @@ pipeline {
     }
      stage('Publishing'){
        steps{
-        sh "docker login -u admin -p admin123 10.0.2.15:8083"
+        sh "docker login -u admin -p admin123 10.0.2.15:5000"
         sh "docker push 10.0.2.15:8083/employee-time-tracker:latest"
        }
      }
