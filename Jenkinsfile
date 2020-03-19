@@ -12,7 +12,7 @@ pipeline {
       steps {
       sh "docker images"
       sh "docker build -t balajiabgs/employee-time-tracker:${env.BUILD_ID} ."
-      sh "docker tag balajiabgs/employee-time-tracker:${env.BUILD_ID} 104.46.42.105:5000/employee-time-tracker:${env.BUILD_ID}"
+      sh "docker tag balajiabgs/employee-time-tracker:${env.BUILD_ID} 104.46.42.105:5000/employee-time-tracker:latest"
       sh "docker images"
       }
     }
